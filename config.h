@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -86,7 +86,7 @@ const int boxdraw_bold = 0;
 const int boxdraw_braille = 0;
 
 /* bg opacity */
-float alpha = 0.9;
+float alpha = 0.8;
 
 /*
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
